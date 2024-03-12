@@ -1,0 +1,43 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: inherit;
+}
+
+th,
+td {
+    padding: 0;
+    vertical-align: top;
+}
+
+
+.table {
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.tableHead {
+    background-color: #2a2a2a;
+    border: 2px solid black;
+    color: white;
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.tableBody:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+.tableBody:nth-child(odd) {
+    background-color: white;
+}
+
+.tableRow {
+    width: 200px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 0;
+    font-weight: 500;
+}
